@@ -3,11 +3,10 @@
 A single webpage displaying some oh my coding and devlelopment projects
 
 Frameworks used: 
-    -React.js
+React.js
     
 Languages: 
-    -Javascript
+Javascript
 
 Libraries Used: 
-    - MUI
-    - React Bootstrap
+MUI & React Bootstrap
