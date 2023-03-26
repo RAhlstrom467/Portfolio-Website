@@ -15,7 +15,6 @@ function App() {
       <h2>
         GitHub Projects and Links, use cards
       </h2>
-      <div className="testdiv">
       <div className="cards">
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
@@ -27,7 +26,26 @@ function App() {
         <Button variant="primary">GitHub Link</Button>
       </Card.Body>
       </Card>
-      </div>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Project One</Card.Title>
+        <Card.Text>
+          Bio of the project
+        </Card.Text>
+        <Button variant="primary">GitHub Link</Button>
+      </Card.Body>
+      </Card>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Project One</Card.Title>
+        <Card.Text>
+          Bio of the project
+        </Card.Text>
+        <Button variant="primary">GitHub Link</Button>
+      </Card.Body>
+      </Card>
       </div>
     </div>
   );

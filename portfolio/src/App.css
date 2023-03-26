@@ -3,12 +3,16 @@
   /* background: #61dafb; */
 }
 
-.testdiv {
-  width: 500;
-}
+
 .cards {
+  border: 50px;
+  border-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
   align-items: center;
   align-content: center;
-  width: 500px;
+  width: 1500px;
+  height: 250px;
+  display: flex;
 
 }
