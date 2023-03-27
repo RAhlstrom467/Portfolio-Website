@@ -7,12 +7,25 @@
 .cards {
   border: 50px;
   border-color: black;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   align-items: center;
   align-content: center;
-  width: 1500px;
+  width: 90%px;
   height: 250px;
   display: flex;
+  background-color: rgb(185, 185, 185);
 
+}
+.c1 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.c2 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.c3 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
