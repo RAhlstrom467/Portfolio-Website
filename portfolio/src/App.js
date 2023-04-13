@@ -2,6 +2,7 @@ import './App.css';
 import { React } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Grid from '@mui/material/Grid';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <h2>
         GitHub Projects and Links, use cards
       </h2>
+      <Grid item spacing={2} xs={4}>
       <div className="cards">
       <div className='c1'>
       <Card style={{ width: '18rem' }}>
@@ -69,6 +71,7 @@ function App() {
       </Card>
       </div>
       </div>
+      </Grid>
     </div>
   );
 }
