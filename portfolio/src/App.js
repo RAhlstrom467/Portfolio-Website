@@ -16,7 +16,7 @@ function App() {
       <h2>
         GitHub Projects and Links, use cards
       </h2>
-      <Grid item spacing={2} xs={4}>
+      <Grid item xs zeroMinWidth>
       <div className="cards">
       <div className='c1'>
       <Card style={{ width: '18rem' }}>
